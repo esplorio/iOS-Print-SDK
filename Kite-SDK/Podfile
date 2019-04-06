@@ -4,19 +4,19 @@ use_frameworks!
 target 'KiteSDK' do
 	pod 'Photobook', :git => 'https://github.com/esplorio/Photobook-iOS.git', :commit => '05ef4fa7c1dba4da2b65c646bbafd2f8999c542a'
 	pod 'NXOAuth2Client'
-	pod 'FBSDKLoginKit'
-	pod 'FBSDKCoreKit'
+	pod 'FBSDKLoginKit', '4.36.0'
+	pod 'FBSDKCoreKit', '4.36.0'
 end
 
 target 'KiteSDK-Demo' do
     pod 'PayPal-iOS-SDK/Core'
-    pod 'FBSDKCoreKit'
-    pod 'FBSDKLoginKit'
+    pod 'FBSDKCoreKit', '4.36.0'
+    pod 'FBSDKLoginKit', '4.36.0'
 end
 
 target 'Kite-CI-Deploy' do
     pod 'PayPal-iOS-SDK/Core'
-    pod 'FBSDKCoreKit'
-    pod 'FBSDKLoginKit'
+    pod 'FBSDKCoreKit', '4.36.0'
+    pod 'FBSDKLoginKit', '4.36.0'
     pod 'KITAssetsPickerController', :git => 'https://github.com/kkarayannis/KITAssetsPickerController.git'
 end

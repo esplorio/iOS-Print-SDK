@@ -2,7 +2,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'KiteSDK' do
-	pod 'Photobook'
+	pod 'Photobook', :git => 'https://github.com/esplorio/Photobook-iOS.git', :commit => '05ef4fa7c1dba4da2b65c646bbafd2f8999c542a'
 	pod 'NXOAuth2Client'
 	pod 'FBSDKLoginKit'
 	pod 'FBSDKCoreKit'
